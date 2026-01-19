@@ -59,7 +59,6 @@ module "kubernetes" {
   cluster_endpoint = module.eks.cluster_endpoint
   cluster_ca_data  = module.eks.cluster_ca_data
 
-  depends_on = [module.eks]
 }
 
 output "cluster_name" {
