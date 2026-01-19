@@ -1,0 +1,2 @@
+colima start
+localstack start
